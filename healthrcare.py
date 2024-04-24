@@ -232,3 +232,4 @@ def user_predict():
         """, unsafe_allow_html=True)
 
 user_predict()
+
