@@ -219,7 +219,16 @@ def user_predict():
 
     st.subheader("Your Status: ")
     if U_pred == 0:
-        st.write(U_pred[0], " - You are not at high risk 😉")
+        st.markdown("""
+        <div style='background-color: green; padding: 7px; border-radius: 3px;'>
+            <b style='color: black; font-size: 18px;'>You are not at high risk 😉</b>
+        </div>
+        """, unsafe_allow_html=True)
     else:
-        st.write(U_pred[0], " - You are at high risk 😢")
+        st.markdown("""
+        <div style='background-color: red; padding: 7px; border-radius: 3px;'>
+            <b style='color: white; font-size: 18px;'>You are at high risk 😢</b>
+        </div>
+        """, unsafe_allow_html=True)
+
 user_predict()
