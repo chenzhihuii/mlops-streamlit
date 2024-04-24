@@ -221,13 +221,13 @@ def user_predict():
     if U_pred == 0:
         st.markdown("""
         <div style='background-color: green; padding: 7px; border-radius: 3px;'>
-            <b style='color: black; font-size: 18px;'>You are not at high risk 😉</b>
+            <b style='color: black; font-size: 18px;'>[0] - You are not at high risk 😉</b>
         </div>
         """, unsafe_allow_html=True)
     else:
         st.markdown("""
         <div style='background-color: red; padding: 7px; border-radius: 3px;'>
-            <b style='color: white; font-size: 18px;'>You are at high risk 😢</b>
+            <b style='color: white; font-size: 18px;'>[1] - You are at high risk 😢</b>
         </div>
         """, unsafe_allow_html=True)
 
