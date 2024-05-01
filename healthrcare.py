@@ -83,7 +83,9 @@ def plot_op(dataset_name):
         col1.write(Y)
         sns.countplot(Y, palette='gist_heat')
         col2.pyplot()
-
+        
+st.write(data)
+st.write("Shape of dataset: ",data.shape)
 
 def add_parameter_ui(clf_name):
     params={}
@@ -168,7 +170,7 @@ st.markdown("<hr>",unsafe_allow_html=True)
 st.header(f"1) Model for Prediction of {dataset_name}")
 st.subheader(f"Classifier Used: {classifier_name}")
 compute(Y_pred,Y_test)
-
+  
 #Execution Time
 end_time=time.time()
 st.info(f"Total execution time: {round((end_time - start_time),4)} seconds")
@@ -232,4 +234,3 @@ def user_predict():
         """, unsafe_allow_html=True)
 
 user_predict()
-
