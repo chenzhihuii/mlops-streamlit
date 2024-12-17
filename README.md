@@ -6,4 +6,4 @@ Firmanda Wahyunita (D4 SDT / 3322600026)
 
 - NOTES
 
-The source code and PDF documents are my own work and are protected by copyright. Any use, distribution, or retrieval without written permission is considered an infringement and will be strictly penalized!.
+The source code and other documents are my own work and are protected by copyright. Any use, distribution, or retrieval without written permission is considered an infringement and will be strictly penalized!.
