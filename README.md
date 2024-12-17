@@ -3,3 +3,7 @@ The healthcare application is designed to predict heart attacks and acute lympho
 
 
 Firmanda Wahyunita (D4 SDT / 3322600026)
+
+- NOTES
+
+The source code and PDF documents are my own work and are protected by copyright. Any use, distribution, or retrieval without written permission is considered an infringement and will be strictly penalized!.
